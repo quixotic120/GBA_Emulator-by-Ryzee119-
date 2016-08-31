@@ -50,6 +50,12 @@ Again, this is a first prototype. I have observed the following issues:
 
 4. Probably more. This has not been extensively tested.
 
+## Attention
+It has come to my attention that in my haste to get this out, I introduced a small error which will be present on all boards before 31 Aug 2016.
+The image below shows a small overlap of the C18 pad onto the FB signal in the audio amplifier. This will prevent the audio from working. The size of the overlap is on the order of 0.1mm! Easy to miss. The fix is easy. Just remove the bit of copper joining C18 pad to the nearby track with a sharp knife.
+![C18Issue](http://i.imgur.com/AugXbtf.png)
+Sorry guys! :(
+
 ## Controls
 So if you managed to get everything up and running. Congrats! If you followed the software setup guide it has the following key combos setup:
 
